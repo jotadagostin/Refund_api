@@ -1,0 +1,25 @@
+{
+  "name": "refund_api",
+  "version": "1.0.0",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotadagostin/Refund_api.git"
+  },
+  "keywords": [],
+  "author": "Joao Paulo Dagostin",
+  "license": "ISC",
+  "description": "Refund api",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
